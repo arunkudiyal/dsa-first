@@ -958,6 +958,18 @@ a.button_transparent.button_small {
 
 /* ----- 1. Header Styles ----- */
 
+.cta {
+    padding: 1em;
+    width: 8em;
+}
+
+@media handheld,
+only screen and (max-width: 767px) {
+    .cta {
+        width: 11em;
+    }
+}
+
 #header_wrapper {
     position: fixed;
     width: 100%;
